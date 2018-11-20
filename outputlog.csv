@@ -1,0 +1,13 @@
+
+..... ANDI_reader, 73 
+..... build_intensity_matrix_i, 141 
+..... ic_smooth = savitzky_golay,, 176 
+..... tophat,, 176 
+..... im.set_ic_at_index(ii, ic_bc,, 176 
+..... peak_list = BillerBiemann(im, points=15, scans=3), 358 
+..... rel_threshold, 370 
+..... new_peak_list, 384 
+..... area = peak_sum_area(im, peak), 4133 
+..... tic = data.get_tic(), 4133 
+..... tic_bc = tophat, 4133 
+..... ic.append(im.get_ic_at_index(m)), 4153 
